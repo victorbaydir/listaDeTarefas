@@ -1,0 +1,76 @@
+body {
+    height: 100vh !important;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section[id="listaTarefas"]{
+    height: 100%;
+}
+
+footer {
+    position: sticky;
+    bottom: 0 !important;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 13px;
+    margin: 0 !important;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.delete-button {
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.taskContainer {
+    width: 150vh !important;
+    padding: 0;
+}
+
+.info {
+    text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
