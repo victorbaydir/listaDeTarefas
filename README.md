@@ -1,4 +1,4 @@
-# Minha Lista de Tarefas
+# Minha Lista de Tarefas 
 
 Bem-vindo! Este projeto é uma aplicação simples de lista de tarefas (to-do list) construída com HTML, CSS e JavaScript. Aqui você pode adicionar tarefas, marcá-las como concluídas e excluí-las.
 
